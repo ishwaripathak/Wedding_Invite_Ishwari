@@ -13,7 +13,7 @@ export function LanguageProvider({children}: {children: ReactNode}) {
   const value = useMemo(() => ({language, setLanguage, t: (key: MessageKey) => messages[key][languageIndex[language]]}), [language]);
   useEffect(() => {
     document.documentElement.lang = language;
-    document.title = value.t('groomFull') + ' & ' + value.t('brideFull') + ' | 16 ' + value.t('month') + ' 2027';
+    document.title = value.t('brideFull') + ' & ' + value.t('groomFull') + ' | 16 ' + value.t('month') + ' 2027';
     writeStored('sagar-ishwari-language', language);
   }, [language, value]);
   return <LanguageContext.Provider value={value}>{children}</LanguageContext.Provider>;

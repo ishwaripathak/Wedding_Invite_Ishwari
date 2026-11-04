@@ -17,12 +17,12 @@ export const weddingData = {
     mapUrl: 'https://maps.app.goo.gl/Yr4jwwB1i5K1dKyf6',
   },
   contact: { name: 'The wedding families', phone: '', email: '' },
-  hashtag: '#SagarWedsIshwari', instagramUrl: 'https://www.instagram.com/',
+  hashtag: '#IshwariWedsSagar', instagramUrl: 'https://www.instagram.com/',
   youtubeId: '', driveVideoId: '18rxx6v4ONfL0b_Ac_XVSo9lwvGoriH-F', templeArtwork: './temple.png', musicUrl: '',
   photos: [
-    { src: couplePhoto, alt: 'Sagar and Ishwari smiling at each other', caption: 'The little moments, the forever kind of love.' },
-    { src: familyCelebrationOne, alt: 'Sagar and Ishwari seated with family in front of pink drapes', caption: 'Two hearts, surrounded by love.' },
-    { src: familyCelebrationTwo, alt: 'Sagar and Ishwari celebrating with family in green, maroon and gold outfits', caption: 'Two families. One beautiful beginning.' },
+    { src: couplePhoto, alt: 'Ishwari and Sagar smiling at each other', caption: 'The little moments, the forever kind of love.' },
+    { src: familyCelebrationOne, alt: 'Ishwari and Sagar seated with family in front of pink drapes', caption: 'Two hearts, surrounded by love.' },
+    { src: familyCelebrationTwo, alt: 'Ishwari and Sagar celebrating with family in green, maroon and gold outfits', caption: 'Two families. One beautiful beginning.' },
   ],
   story: 'Some journeys lead you somewhere. Ours led us to each other. With full hearts and our favourite people by our side, we’re beginning the most beautiful chapter yet.',
   events: [

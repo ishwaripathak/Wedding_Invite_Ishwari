@@ -15,10 +15,10 @@ export default function Hero() {const d=useWeddingData();const {t}=useLanguage()
   const artwork = d.templeArtwork || `${import.meta.env.BASE_URL}temple.svg`;
   return <section ref={ref} className="hero" aria-labelledby="hero-title">
     <div className="hero-grain"/><div className="cloud cloud-one"/><div className="cloud cloud-two"/><div className="cloud cloud-three"/>
-    <nav className="hero-nav" aria-label={t('navigation')}><a href="#" className="monogram" aria-label={t('home')}>S<span>&</span>I</a><a href="#rsvp" className="hero-rsvp">{t('savedSeat')} <ArrowUpRight size={13}/></a></nav>
+    <nav className="hero-nav" aria-label={t('navigation')}><a href="#" className="monogram" aria-label={t('home')}>I<span>&</span>S</a><a href="#rsvp" className="hero-rsvp">{t('savedSeat')} <ArrowUpRight size={13}/></a></nav>
     <motion.div className="hero-heading" style={{opacity: reduced ? 1 : textOpacity}}>
       <p className="eyebrow">{t('celebration')}</p>
-      <h1 id="hero-title"><span>{d.groomFull}</span><em>{t('weds')}</em><span>{d.brideFull}</span></h1>
+      <h1 id="hero-title"><span>{d.brideFull}</span><em>{t('weds')}</em><span>{d.groomFull}</span></h1>
       <p className="hero-date">{d.dateParts.day} <span>{d.dateParts.month.toUpperCase()}</span> {d.dateParts.year}</p>
       <div className="hero-flourish" aria-hidden="true">✧</div>
     </motion.div>

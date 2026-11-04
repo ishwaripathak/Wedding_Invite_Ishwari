@@ -15,7 +15,7 @@ export default function Video() {
         : playing && d.youtubeId ? <iframe src={`https://www.youtube-nocookie.com/embed/${encodeURIComponent(d.youtubeId)}?autoplay=1`} title={t('filmAlt')} allow="autoplay; encrypted-media; picture-in-picture" allowFullScreen/>
         : <div className="video-poster"><Lotus/><p className="video-script">{t('filmBeginning')}</p>
           {d.youtubeId ? <button className="play-button" aria-label={t('filmPlay')} onClick={() => setPlaying(true)}><Play size={22} fill="currentColor"/></button> : <span className="film-coming">{t('filmSoon')}</span>}
-          <span className="video-initials">{d.groom.toUpperCase()} & {d.bride.toUpperCase()}</span>
+          <span className="video-initials">{d.bride.toUpperCase()} & {d.groom.toUpperCase()}</span>
         </div>}
     </div>
     <p className="small-copy muted">{t('filmNote')}</p>
