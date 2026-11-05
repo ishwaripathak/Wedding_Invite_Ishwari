@@ -18,6 +18,7 @@ export const weddingData = {
   },
   contact: { name: 'The wedding families', phone: '', email: '' },
   hashtag: '#IshwariWedsSagar', instagramUrl: 'https://www.instagram.com/',
+  filmUrl: './film/sagar-ishwari-wedding.mp4', filmPoster: './film/sagar-ishwari-poster.jpg',
   youtubeId: '', driveVideoId: '18rxx6v4ONfL0b_Ac_XVSo9lwvGoriH-F', templeArtwork: './temple.png', musicUrl: '',
   photos: [
     { src: couplePhoto, alt: 'Ishwari and Sagar smiling at each other', caption: 'The little moments, the forever kind of love.' },
